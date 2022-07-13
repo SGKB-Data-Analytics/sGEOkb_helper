@@ -6,7 +6,7 @@ import proxysetting as ps
 import google_key as gk
 
 #google Stuff
-GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
+GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/place/textsearch/json'
 
 path_to_csv = '../ADRESSEN_ENRICHMENT/DATA/BETRIEB/POS_Stand_20211008.csv'
 path_to_csv_out = '../ADRESSEN_ENRICHMENT/OUTPUT/resultat_alle_google_abfragen_20211008.csv'
